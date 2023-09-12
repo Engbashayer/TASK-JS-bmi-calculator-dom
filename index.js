@@ -23,7 +23,7 @@ function calculateBMI() {
 
   if (result < 18.5) {
     window.alert("you are underweight");
-  } else if (result <= 18.5 && result >= 24.9) {
+  } else if (result >= 18.5 && result <= 24.9) {
     window.alert("you are  healthy weight");
   } else if (result >= 25 && result <= 29.9) {
     window.alert("you are overweight");
